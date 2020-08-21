@@ -7,7 +7,6 @@ module.exports = {
   mode: 'development',
   devtool: 'eval-source-map',
   devServer: {
-    port: 3000,
     stats: {
       colors: true,
       hash: false,
@@ -24,6 +23,7 @@ module.exports = {
       warnings: true,
       publicPath: false,
     },
+    port: 3000,
   },
   module: {
     rules: [
